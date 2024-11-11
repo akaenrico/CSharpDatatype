@@ -27,7 +27,7 @@ Console.WriteLine($"String: {firstName}");
 char grade = 'A';
 Console.WriteLine($"Char: {grade}");
 
-/// Converting strings to numbers
+//// Converting strings to numbers
 Console.WriteLine(@"
 ---------------------------------------------
 Converting strings to numbers:");
@@ -38,16 +38,16 @@ int age = Convert.ToInt32(textAge);
 Console.WriteLine(age);
 
 // Float
-string textPi = "3.141592";
+string textPi = "3,141592";
 float pi = Convert.ToSingle(textPi);
 Console.WriteLine(pi);
 
 // Double
-string textHeight = "1.81";
+string textHeight = "1,81";
 double height = Convert.ToDouble(textHeight);
 Console.WriteLine(height);
 
 // Decimal
-string textCost = "1999.99";
+string textCost = "1999,99";
 decimal cost = Convert.ToDecimal(textCost);
 Console.WriteLine(cost);
